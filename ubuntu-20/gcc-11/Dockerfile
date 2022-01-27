@@ -3,7 +3,7 @@ FROM axom/compilers:ubuntu-20-base_latest
 LABEL maintainer="Chris White <white238@llnl.gov>"
 
 RUN \
-       sudo apt install software-properties-common \
+       sudo apt-get -qq install -y --no-install-recommends software-properties-common \
     && sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test \
     && sudo apt update \
     && sudo apt-get -qq install -y --no-install-recommends g++-11 \
