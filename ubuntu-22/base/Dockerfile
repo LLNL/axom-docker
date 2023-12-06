@@ -1,6 +1,6 @@
-FROM ubuntu:16.04
+FROM ubuntu:22.04
 
-LABEL maintainer="David Beckingsale <david@llnl.gov>"
+LABEL maintainer="Chris White <white238@llnl.gov>"
 
 ADD generic-setup.sh /root/generic-setup.sh
 
