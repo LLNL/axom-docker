@@ -1,6 +1,6 @@
 FROM axom/compilers:ubuntu-20-base_latest
 
-LABEL maintainer="Josh Essman <essman1@llnl.gov>"
+LABEL maintainer="Chris White <white238@llnl.gov>"
 
 RUN \
     sudo apt-get -qq install -y --no-install-recommends \
